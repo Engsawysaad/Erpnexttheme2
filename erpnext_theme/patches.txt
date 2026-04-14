@@ -1,0 +1,2 @@
+# patches.txt - List of patch files to run on migration
+# Add patch filenames here, one per line
