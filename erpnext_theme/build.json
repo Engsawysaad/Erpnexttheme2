@@ -1,8 +1,8 @@
 {
     "js/erpnext_theme.min.js": [
-        "public/js/erpnext_theme.js"
+        "public/js/theme.js"
     ],
     "css/erpnext_theme.css": [
-        "public/css/erpnext_theme.css"
+        "public/css/theme.css"
     ]
 }
