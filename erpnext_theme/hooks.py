@@ -23,11 +23,10 @@ website_route_rules = [
 # app_include_js = "/assets/erpnext_theme/js/theme.js"
 # app_include_css = "/assets/erpnext_theme/css/theme.css"
 
-# Website Assets
-# These are injected into website pages (web.html)
-# Use app_include_css for website theme
-app_include_css = "/assets/erpnext_theme/css/theme.css"
-app_include_js = "/assets/erpnext_theme/js/theme.js"
+# Website Assets - Commented out for initial install
+# Enable these after successful install:
+# app_include_css = "/assets/erpnext_theme/css/theme.css"
+# app_include_js = "/assets/erpnext_theme/js/theme.js"
 
 # Website Branding
 # brand_html = '<div class="brand-wrapper"><img src="/assets/erpnext_theme/images/logo.svg" width="32" height="32"/> ERPNext</div>'
