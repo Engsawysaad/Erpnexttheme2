@@ -7,7 +7,7 @@ name = "erpnext_theme"
 version = "0.0.1"
 description = "Custom ERPNext theme inspired by modern design"
 readme = "README.md"
-authors = [{name = "", email = ""}]
+authors = [{name = "Saad Eng", email = "saad@engsawy.com"}]
 license = {text = "MIT"}
 requires-python = ">=3.10"
 # Note: Do not add frappe as dependency - this is a theme/style app
