@@ -1,0 +1,325 @@
+{% extends "templates/web/base.html" %}
+
+{% block title %}ERPNext - Complete Business Management Made Simple{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-content" data-animate>
+            <div class="badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+                Open Source ERP Platform
+            </div>
+            
+            <h1>
+                Complete Business<br>
+                Management <span class="highlight">Made Simple</span>
+            </h1>
+            
+            <p class="hero-description">
+                Streamline your organization's operations with ERPNext—the world's most powerful open-source ERP system. 
+                From accounting to inventory, HR to projects, manage everything in one unified platform.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="/demo" class="btn btn-primary btn-large">
+                    Start Free Trial
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </a>
+                <a href="/demo" class="btn btn-secondary btn-large">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                    Watch Demo
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">10K+</div>
+                    <div class="stat-label">Companies</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Countries</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100K+</div>
+                    <div class="stat-label">Users</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-visual" data-animate>
+            <div class="dashboard-preview">
+                <div class="dashboard-header">
+                    <div class="window-dot red"></div>
+                    <div class="window-dot yellow"></div>
+                    <div class="window-dot green"></div>
+                </div>
+                <div class="dashboard-body">
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                            </svg>
+                            Revenue
+                        </div>
+                        <div class="metric-value">$2.4M</div>
+                        <div class="metric-change positive">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            </svg>
+                            +23.5%
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                            </svg>
+                            Employees
+                        </div>
+                        <div class="metric-value">1,248</div>
+                        <div class="metric-change positive">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            </svg>
+                            +12.3%
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-header">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            </svg>
+                            Orders
+                        </div>
+                        <div class="metric-value">3,847</div>
+                        <div class="metric-change positive">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                            </svg>
+                            +18.7%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modules Section -->
+<section class="section section-modules">
+    <div class="section-header">
+        <div class="badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            Core Modules
+        </div>
+        <h2 class="section-title">Everything You Need to Run Your Business</h2>
+        <p class="section-description">
+            ERPNext offers a comprehensive suite of integrated modules designed to streamline 
+            every aspect of your enterprise operations.
+        </p>
+    </div>
+    
+    <div class="modules-grid grid grid-4">
+        <div class="card card-module" data-animate data-animate-delay="100">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+            </div>
+            <h3>Accounting</h3>
+            <p>Complete financial management with invoicing, payments, and asset tracking.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="200">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <h3>CRM</h3>
+            <p>Manage leads, opportunities, and customer relationships with automation.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="300">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+            </div>
+            <h3>Inventory</h3>
+            <p>Track stock levels and manage warehouses with real-time visibility.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="400">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+            </div>
+            <h3>HR & Payroll</h3>
+            <p>Streamline employee management, recruitment, and payroll processing.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="500">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+            </div>
+            <h3>Projects</h3>
+            <p>Plan, track, and deliver projects with Gantt charts and timesheets.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="600">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+            </div>
+            <h3>Manufacturing</h3>
+            <p>Manage production planning, BOMs, and work orders efficiently.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="700">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </div>
+            <h3>E-Commerce</h3>
+            <p>Build your online store with integrated shopping cart and payments.</p>
+        </div>
+        
+        <div class="card card-module" data-animate data-animate-delay="800">
+            <div class="module-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
+            <h3>Website Builder</h3>
+            <p>Create beautiful websites with drag-and-drop tools and SEO optimization.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="section section-alt">
+    <div class="section-header">
+        <div class="badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            Key Features
+        </div>
+        <h2 class="section-title">Built for Modern Businesses</h2>
+        <p class="section-description">
+            Powerful capabilities that help you work smarter, faster, and more efficiently.
+        </p>
+    </div>
+    
+    <div class="features-grid grid grid-3">
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h3>Role-Based Access</h3>
+            <p>Granular permissions ensure the right people see the right data.</p>
+        </div>
+        
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+            </div>
+            <h3>Custom Reports</h3>
+            <p>Build any report you need with our powerful report builder.</p>
+        </div>
+        
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+            </div>
+            <h3>Multi-Currency</h3>
+            <p>Conduct business globally with support for multiple currencies.</p>
+        </div>
+        
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+            </div>
+            <h3>Tax Compliance</h3>
+            <p>Stay compliant with GST, VAT, and local tax regulations.</p>
+        </div>
+        
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                </svg>
+            </div>
+            <h3>Workflow Automation</h3>
+            <p>Automate repetitive tasks with powerful workflow engine.</p>
+        </div>
+        
+        <div class="card card-feature" data-animate>
+            <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </div>
+            <h3>API Integration</h3>
+            <p>Connect ERPNext with your existing tools via REST API.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section section-cta">
+    <div class="cta-content text-center">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Join thousands of companies using ERPNext to streamline their operations and grow faster.</p>
+        <div class="cta-buttons">
+            <a href="/demo" class="btn btn-primary btn-large">Start Free Trial</a>
+            <a href="/contact" class="btn btn-secondary btn-large">Schedule Demo</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

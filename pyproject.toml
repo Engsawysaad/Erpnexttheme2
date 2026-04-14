@@ -1,0 +1,28 @@
+[build-system]
+requires = ["flit_core>=3", "setuptools>=40"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "erpnext_theme"
+version = "0.0.1"
+description = "Custom ERPNext theme inspired by modern design"
+readme = "README.md"
+authors = [{name = "", email = ""}]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "frappe>=16.0.0",
+]
+
+[tool.frappe]
+app_name = "erpnext_theme"
+app_title = "ERPNext Theme"
+app_description = "Custom ERPNext theme inspired by modern design"
+app_icon = "octicon octicon-star"
+app_color = "#0891b2"
+app_license = "MIT"
+app_publisher = ""
+app_support_url = ""
+app_category = "Theme"
+runtime_version = "16.0.0"
+init_site_hook = ""
