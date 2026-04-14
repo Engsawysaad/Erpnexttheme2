@@ -7,7 +7,5 @@ app_icon:
 app_color: 
 app_license: MIT
 app_version: 0.0.1
-app_depends:
-depends_on:
-  - frappe
-  - erpnext
+app_depends: 
+# No hard dependencies - this is a theme/style extension app
