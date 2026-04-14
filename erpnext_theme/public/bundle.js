@@ -1,2 +1,4 @@
-// bundle.js - Theme JavaScript entry point
-// This file is required by Frappe's esbuild system
+// Bundle file for erpnext_theme
+// This allows the app to be built without errors
+
+__all__ = [];

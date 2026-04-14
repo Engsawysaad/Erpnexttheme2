@@ -1,0 +1,17 @@
+{
+    "name": "erpnext_theme",
+    "title": "ERPNext Theme",
+    "description": "Custom ERPNext theme inspired by modern design",
+    "author": "Saad Eng",
+    "author_email": "saad@engsawy.com",
+    "icon": "fa-palette",
+    "color": "#0891b2",
+    "version": "0.0.1",
+    "license": "MIT",
+    "website": "",
+    "support": "",
+    "repository": "",
+    "priority": 1,
+    "installed": 1,
+    "hidden": 0,
+    ["doctype:<caret>Rename": null]
