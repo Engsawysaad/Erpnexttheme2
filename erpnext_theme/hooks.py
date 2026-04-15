@@ -46,14 +46,12 @@ website_route_rules = [
 # }
 
 
-def website_context(website_context):
+def get_website_settings():
     """Extend website context for app"""
-    website_context.update(
-        {
-            "theme_primary": "#0f172a",
-            "theme_accent": "#0891b2",
-            "theme_accent_light": "#22d3ee",
-            "theme_font_family": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif",
-            "theme_heading_font": "'Space Grotesk', sans-serif",
-        }
-    )
+    return {
+        "theme_primary": "#0f172a",
+        "theme_accent": "#0891b2",
+        "theme_accent_light": "#22d3ee",
+        "theme_font_family": "'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+        "theme_heading_font": "'Space Grotesk', sans-serif",
+    }
