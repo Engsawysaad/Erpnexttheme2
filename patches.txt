@@ -1,3 +1,0 @@
-# patches.txt - List of patch files to run on migration
-# Add patch filenames here, one per line
-# Example: my_app/patches/update_v1_to_v2
