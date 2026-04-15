@@ -1,0 +1,3 @@
+# modules.txt
+# List of Python modules in this app (one per line)
+# Leave empty if app has no sub-modules
