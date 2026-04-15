@@ -1,0 +1,9 @@
+app_name: erpnext_theme
+app_title: ERPNext Theme
+app_description: Custom ERPNext theme
+app_author: Saad Eng
+app_email: saad@engsawy.com
+app_icon: fa-palette
+app_color: "#0891b2"
+app_license: MIT
+app_version: 0.0.1
